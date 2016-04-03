@@ -1,0 +1,806 @@
+html {
+      height: 100%;
+    }
+    @media (max-width: 718px) {
+     
+      .arrow{
+        visibility: hidden;
+      }
+      .up-arrow{
+        visibility: hidden;
+
+      } 
+    }
+
+    @media (max-width: 780px) {
+     
+      section.categories h4 {
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        letter-spacing: 0px;
+      }
+    }
+
+    body {
+      background: #E2E4E7;
+      padding: 0;
+      text-align: center;
+      font-family: 'open sans';
+      position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .slider {
+      position: relative;
+     /* padding: 50px;*/
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-top: 50px;
+
+    }
+    .wrapper {
+      height: 100% !important;
+      width: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+
+    #results_table {
+      /*min-height: 100%;*/
+      min-height: 100%;
+      /*border: solid 2px blue;*/
+      background-color: white;
+      /* margin-top: 20px;*/
+    }
+
+    .table_section {
+      height: 100%;
+      background-color: white;
+    }
+
+    #table_wrapper {
+      /*overflow: hidden;*/
+    /*  border: solid 3px red;*/
+      position: absolute;
+      margin-top: 100px;
+   /*   z-index: -1;*/
+      width: 100%;
+      min-height: 90%;
+      max-height: 90%;
+     /* overflow: scroll;*/
+      background-color: white;
+      margin: auto auto;
+      padding: 20px 20px 20px 20px;
+    }
+ 
+    h1 {
+      font-weight: 100;
+      text-align: center;
+      margin-top: 17%;
+      padding: 0;
+      font-size: 70px;
+      color: white;
+      opacity: 0.7;
+      letter-spacing: -4px;
+
+    }
+   
+    h2 {
+      font-weight: 100;
+      color: #6D461D;
+      text-align: center;
+      margin-top: 10px;
+      color: black;
+    }
+    
+
+    section  {
+      overflow: hidden;
+    }
+    .titlediv{/*
+      position: absolute;*/
+      /*margin-top:20%;
+      margin-left: 20%;
+      height: 100px;*/
+      /*margin: 0 auto;
+      text-align: center;*/
+      z-index: 2;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 500px;
+      height: 500px;
+      margin-top: -100px; /* Half the height */
+      margin-left: -300px; /* Half the width */
+    }
+    .homebutton {
+      
+      margin-left: 70px;
+    }
+    .imagediv1{
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: url('img/background.png') no-repeat;
+    
+      background-size:cover;
+
+    }
+    .imagediv2{
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: url('img/background2.png') no-repeat;
+      /*opacity: 0;*/
+    
+      background-size:cover;
+
+    }
+    .imagediv3{
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: url('img/background3.png') no-repeat;
+      /*opacity: 0;*/
+      background-size:cover;
+
+    }
+
+    section.home {
+    }
+   
+
+    
+    section.home button {
+      z-index: 2;
+      margin-top: 40px;
+      width: 150px;
+      height: 35px;
+      /*color: none;*/
+      background-color: transparent;
+      /*outline: 2px black;*/
+      /*background: #c2dcf2;*/
+      font-size: 17px;
+      font-family: 'open sans';
+      font-weight: lighter;
+      color: white;
+      border: white;
+      border-style: solid;
+      border-width: 1px;
+
+      -moz-border-radius: 30px;
+      -webkit-border-radius: 30px;
+      outline: none;
+
+     
+     
+      z-index: -1;
+
+
+    }
+    section.home button:hover {
+      outline: none;
+    
+      /*border: white;*/
+      border: white;
+      border-style: solid;
+      border-width: 2px;
+      color: black;
+      opacity: 0.4;
+      background-color: white;
+      
+      font-weight: normal;
+    
+    }
+
+
+    h3 {
+      padding-right: 20px;
+      margin-top: 130px;
+      color: white;
+      margin-bottom: 0px;
+      font-size: 50px;
+      letter-spacing: -4px;
+      font-weight: 100;
+    }
+
+    section.devices {
+      background: #555557 
+    }
+
+  
+
+    section.categories {
+      /*background: #91d154; */
+      /*background: #DED6CC;*/
+      background: gray;
+    }
+
+    h4 {
+      padding-right: 20px;
+      margin-top: 70px;
+      color: white;
+      margin-bottom: 20px;
+      font-size: 50px;
+      letter-spacing: -4px;
+      font-weight: 100;
+    }
+
+    section.devices .devices_container {
+      padding-top: 60px;
+      padding-right: 50px;
+      margin-top: 5%;
+
+
+    }
+   /* section.devices .scroll {
+      overflow: scroll;
+      width: 200px;
+
+    }
+*/
+    section.price button:hover {
+      outline: none;
+      background:black;
+      color: white;
+    }
+
+    section.price button {
+      
+      outline: none;
+     /* position: absolute;*/
+      /*top: 70%;
+      left:43%;*/
+      margin-top: 70px;
+      
+     /* padding-top: 20px;*/
+      z-index: 3;
+      /*float: center;*/
+     /* position: absolute;*/
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      background: #c2dcf2;
+
+   
+      width: 150px;
+      height: 40px;
+      color: black;
+      border: 2px white;
+      font-size: 20px;
+      font-family: 'open sans';
+      font-weight: lighter;
+
+    }
+
+    section.table_section button {
+     /* 
+      outline: none;*/
+     /* position: absolute;
+      z-index: 2;
+      margin-top: 10px;
+      right:85%;*/
+      margin-top: 10px;
+   
+      margin-left: 40px;
+      outline: none;
+      width: 200px;
+      height: 40px;
+      color: black;
+      border: 2px white;
+      background: #c2dcf2;
+      font-size: 20px;
+      font-family: 'open sans';
+      font-weight: lighter;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+
+    }
+    section.table_section button:hover {
+      
+      
+      outline: none;
+      background:black;
+      color: white;
+      cursor: pointer;
+     
+
+    }
+
+    section.devices h1 {
+      margin-top: 20px;
+    }
+
+    
+   
+    section.results div {
+      width: 900px;
+      height: 100%;
+
+      /*overflow: scroll;*/
+    }
+
+    .row {
+      margin-top: 30px;
+    }
+    
+
+
+    section.devices .imageCheckbox {
+          display: none;
+    }
+
+    section.categories .imageCheckbox {
+          display: none;
+    }
+
+    section.age .imageCheckbox {
+          display: none;
+    }
+    section.age  {
+          background: #a0d9da;
+    }
+    
+    section.price .imageCheckbox {
+          display: none;
+    }
+    section.price  {
+          /*background: #B8DB4D;*/
+          background:#606060;
+          /*background: white;*/
+    }
+    section.stars .imageCheckbox {
+          display: none;
+    }
+    section.stars  {
+          background: #79ccc5;
+    }
+
+    
+
+    li{
+      display: inline;
+    }
+
+   
+
+    .arrow{
+      position: absolute;
+      top: 55%;
+      float: center;
+      width: 50px;
+      right: 49%;
+      z-index: 10;
+
+
+    }
+    .categories .arrow{
+      position: absolute;
+      top: 90%;
+      float: center;
+      width: 50px;
+      right: 49%;
+      z-index: 10;
+
+
+    }
+    .age .arrow{
+      position: absolute;
+      top: 90%;
+      float: center;
+      width: 50px;
+      right: 49%;
+      z-index: 10;
+
+    }
+    .devices .arrow{
+      position: absolute;
+      top: 90%;
+      float: center;
+      width: 50px;
+      right: 49%;
+      z-index: 10;
+
+
+    }
+    .stars .arrow{
+      position: absolute;
+      top: 90%;
+      float: center;
+      width: 50px;
+      right: 49%;
+      z-index: 10;
+
+    }
+  /*  .awrapper{
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }*/
+
+    .up-arrow{
+      -moz-transform: scaleY(-1);
+      -o-transform: scaleY(-1);
+      -webkit-transform: scaleY(-1);
+      transform: scaleY(-1);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+      position: absolute;
+      top: 30px;
+      float: center;
+      width: 50px;
+      right: 49%;
+/*
+    }
+      position: absolute;
+      top: 480px;
+      float: center;
+      width: 30px;
+      right: 49%;*/
+
+    }
+  
+    #android:hover, #iphone:hover, #ipad:hover, #itouch:hover, #wind8:hover, #windph:hover{
+        opacity: 1;
+        cursor: pointer;
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+
+    }
+    #wind8 {
+       opacity: 0.7;
+
+    }
+    #windph {
+     
+       opacity: 0.7;
+    }
+    #iphone {
+      opacity: 0.7;
+
+    }
+    #ipad {
+      opacity: 0.7;
+
+    }
+    #itouch {
+      opacity: 0.7;
+    }
+    #android {
+       opacity: 0.7;
+       
+    }
+/*    #preschool:hover, #children:hover, #adolescents:hover, #adults:hover {
+      display: inline;
+        opacity: 1;
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+
+    }*/
+
+    #preschool {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 259px;
+
+    }
+    #children {
+      opacity: 0;
+       position: absolute;
+       z-index: 2;
+       left: 410px;
+    }
+    #adolescents {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+      left: 540px;
+
+    }
+    #adults {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 712px;
+
+    }
+
+    #free {
+      opacity: 0;
+      top:97px;
+      position: absolute;
+       z-index: 2;
+       left: 245px;
+
+    }
+    #img5 {
+      opacity: 0;
+      top:97px;
+       position: absolute;
+       z-index: 2;
+       left: 324px;
+    }
+    #img10 {
+      opacity: 0;
+      top:97px;
+      position: absolute;
+      z-index: 2;
+      left: 379px;
+
+    }
+    #img15 {
+      top:98px;
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 440px;
+
+    }
+
+    #img20 {
+      opacity: 0;
+      top:96px;
+      position: absolute;
+       z-index: 2;
+       left: 521px;
+
+    }
+    #img30 {
+      opacity: 0;
+      top:97px;
+       position: absolute;
+       z-index: 2;
+       left: 580px;
+    }
+    #img40 {
+      opacity: 0;
+      top:97px;
+       position: absolute;
+       z-index: 2;
+       left: 655px;
+    }
+    #img50 {
+      opacity: 0;
+      top:97px;
+      position: absolute;
+       z-index: 2;
+      left: 741px;
+
+    }
+    #img100 {
+      opacity: 0;
+      top:97px;
+      position: absolute;
+       z-index: 2;
+       left: 792px;
+
+    }
+    .price-background{
+      opacity: 1;
+      z-index: 1;
+
+      position:absolute;
+      left:245px;
+    }
+
+    .ages {
+      margin-top: 170px;
+      margin-left: 10px;
+    }
+
+    .age-background{
+      opacity: 1;
+      z-index: 1;
+
+      position:absolute;
+      left:259px;
+    }
+    .age h1{
+      margin-top: 120px;
+      margin-bottom: 40px;
+      color: black;
+      font-size: 60px;
+    }
+    .price h1{
+      margin-top: 120px;
+      margin-bottom: 40px;
+      color: white;
+      font-size: 60px;
+    }
+    .stars h1{
+      margin-top: 120px;
+      margin-bottom: 60px;
+      color: white;
+      font-size: 60px;
+    }
+    .table_section h5{
+      letter-spacing: -2;
+      color: #79ccc5;
+      font-size: 35px;
+      /*z-index: 3;*/
+      margin-left: 30px;
+
+      font-weight: 100;
+      text-align: center;
+      padding: 0;
+      /*margin-top: 30px;*/
+      font-size: 45px;
+      opacity: 0.7;
+      letter-spacing: -2px;
+    }
+    .container{
+      margin-top: 5%;
+    }
+    .age_container {
+      margin-top: 12%;
+      position: relative;
+      /*float: center;*/
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+      /*min-width: 800px;*/
+    }
+     .price_container {
+      margin-top: 5%;
+      position: relative;
+      float: center;
+      text-align: center;
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+
+      /*min-width: 800px;*/
+    }
+     #starhalf {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 253px;
+       top: 1px;
+
+
+    }
+    #star1 {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 314px;
+       top: 0px;
+
+    }
+    #star1half {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 375px;
+       top: 0px;
+
+    }
+    #star2 {
+      opacity: 0;
+       position: absolute;
+       z-index: 2;
+       left: 436px;
+       top:0px;
+    }
+    #star2half {
+      opacity: 0;
+       position: absolute;
+       z-index: 2;
+       left: 497px;
+       top: 1px;
+
+    }
+    #star3 {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+      left: 558px;
+      top: 1px;
+
+    }
+    #star3half {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+      left: 618px;
+      top: 1px;
+
+
+
+    }
+    #star4 {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 678px;
+       top: 1px;
+
+
+    }
+    #star4half {
+      opacity: 0;
+      position: absolute;
+       z-index: 3;
+       left: 743px;
+       top: 1px;
+    }
+    #star5 {
+      opacity: 0;
+      position: absolute;
+       z-index: 2;
+       left: 803px;
+       top: 1px;
+
+
+    }
+
+    .stardiv {
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      z-index: 2
+    }
+
+    .table_section{
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+
+    .dataTables_filter{
+      opacity: 0;
+    }
+
+    #myInputTextField {
+     /* margin-left: 25%;
+      position: absolute;
+      top: 40px;*/
+      margin-top: 25px;
+      width: 200px;
+      padding-left: 10px;
+    }
+
+    .star:hover{
+      cursor: pointer;
+    }
+
+   .arrow:hover{
+    cursor: pointer;
+   }
+   .select:hover{
+    cursor: pointer;
+   }
+   .up-arrow:hover{
+    cursor: pointer;
+   }
+
+
+
+
+
